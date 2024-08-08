@@ -29,8 +29,8 @@ public class Firebase {
         try {
             
             FirebaseOptions firebaseOptions = new FirebaseOptions.Builder()
-                    .setDatabaseUrl("https://zoolaspalmas-default-rtdb.firebaseio.com/") // 
-                    // .setDatabaseUrl("https://zoolaspalmas-default-rtdb.firebaseio.com/")
+                    .setDatabaseUrl("https://parcial2-21034-default-rtdb.firebaseio.com/") // 
+                    // .setDatabaseUrl("https://parcial2-21034-default-rtdb.firebaseio.com/")
                     .setServiceAccount(new FileInputStream(new File("C:\\Users\\gabou\\OneDrive\\Documentos\\POO\\clave\\zoolaspalmas-firebase-adminsdk-q9gkk-6561671cdd.json")))
                     // .setServiceAccount(new FileInputStream(new File("/Users/nestor/Documents/pc/NetBeansProjects/firebase/src/firebase/prueba2-97bb1-firebase-adminsdk-74jjt-433b9eb033.json")))
 
